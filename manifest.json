@@ -1,0 +1,13 @@
+{
+"name": "recommend elimination",
+"version": "1.0",
+"manifest_version": 2,
+"content_scripts": [
+	{
+		"matches": ["*://*.weibo.com/*"],
+		//"js": ["jquery.js", "remove.js"],
+		"css": ["remove.css"],
+		"run_at": "document_idle"
+	}
+]
+}
